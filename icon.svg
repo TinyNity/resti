@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B21B6"/>
+      <stop offset="55%" style="stop-color:#2D0A6B"/>
+      <stop offset="100%" style="stop-color:#06000F"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="4%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F3FF"/>
+      <stop offset="100%" style="stop-color:#EDE9FE"/>
+    </linearGradient>
+    <linearGradient id="cellBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#DDD6FE"/>
+      <stop offset="100%" style="stop-color:#C4B5FD"/>
+    </linearGradient>
+    <linearGradient id="letterCellBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE9FE"/>
+      <stop offset="100%" style="stop-color:#DDD6FE"/>
+    </linearGradient>
+    <linearGradient id="imgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#6D28D9;stop-opacity:0.65"/>
+    </linearGradient>
+    <linearGradient id="imgLetterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B21B6;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#3B0764;stop-opacity:0.95"/>
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND (no specular highlight — it won't be visible) -->
+  <rect x="0" y="0" width="256" height="256" rx="52" ry="52" fill="#5B21B6"/>
+
+  <!-- CARD (drop shadow removed — it flattens/simplifies) -->
+  <rect x="14" y="14" width="228" height="228" rx="36" ry="36" fill="white"/>
+
+  <!-- Header divider -->
+  <line x1="22" y1="84" x2="234" y2="84" stroke="#C4B5FD" stroke-width="1" opacity="0.55"/>
+
+  <!-- ROW 1 -->
+  <rect x="28" y="98" width="60" height="60" rx="10" fill="url(#letterCellBg)"/>
+  <rect x="32" y="102" width="52" height="42" rx="6" fill="url(#imgLetterGrad)"/>
+  <rect x="34" y="148" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.75"/>
+
+  <rect x="98" y="98" width="60" height="60" rx="10" fill="url(#cellBg)"/>
+  <rect x="102" y="102" width="52" height="42" rx="6" fill="url(#imgGrad)"/>
+  <rect x="104" y="148" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.6"/>
+
+  <rect x="168" y="98" width="60" height="60" rx="10" fill="url(#letterCellBg)"/>
+  <rect x="172" y="102" width="52" height="42" rx="6" fill="url(#imgLetterGrad)"/>
+  <rect x="174" y="148" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.75"/>
+
+  <!-- ROW 2 -->
+  <rect x="28" y="168" width="60" height="60" rx="10" fill="url(#cellBg)"/>
+  <rect x="32" y="172" width="52" height="42" rx="6" fill="url(#imgGrad)"/>
+  <rect x="34" y="218" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.6"/>
+
+  <rect x="98" y="168" width="60" height="60" rx="10" fill="url(#letterCellBg)"/>
+  <rect x="102" y="172" width="52" height="42" rx="6" fill="url(#imgLetterGrad)"/>
+  <rect x="104" y="218" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.75"/>
+
+  <rect x="168" y="168" width="60" height="60" rx="10" fill="url(#cellBg)"/>
+  <rect x="172" y="172" width="52" height="42" rx="6" fill="url(#imgGrad)"/>
+  <rect x="174" y="218" width="48" height="6" rx="3" fill="#A78BFA" opacity="0.6"/>
+</svg>
